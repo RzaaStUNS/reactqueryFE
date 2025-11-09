@@ -1,7 +1,7 @@
 # Laporan Praktikum React Query
 
 ## Screenshot DevTools
-![Cache Hit Screenshot](./public/devtools-cache-hit.png)
+![Cache Hit Screenshot](./public/ss.jpg)
 
 ## Penjelasan
 Menggunakan **cache** atau **localStorage** membuat aplikasi lebih baik karena:

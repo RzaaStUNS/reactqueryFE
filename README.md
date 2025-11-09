@@ -3,12 +3,18 @@
 ## Screenshot DevTools
 ![Cache Hit Screenshot](./public/ss.jpg)
 
-## Penjelasan
-Menggunakan **cache** atau **localStorage** membuat aplikasi lebih baik karena:
-- Data yang sudah diambil tidak perlu diminta ulang ke server.
-- Waktu loading halaman lebih cepat.
-- Penggunaan bandwidth berkurang.
-- Jika jaringan lambat atau offline, data masih bisa ditampilkan dari cache.
-- User experience lebih stabil dan responsif.
+Apakah menggunakan cache atau localStorage membuat aplikasi lebih baik?
 
-Namun, perlu diatur agar cache tidak menyimpan data terlalu lama agar data tetap akurat.
+Ya, menggunakan cache atau localStorage membuat aplikasi menjadi lebih baik karena:
+
+Akses data lebih cepat. Data yang sudah pernah diminta tidak perlu diambil ulang dari server.
+
+Mengurangi beban server. Permintaan API berkurang sehingga server lebih ringan.
+
+Hemat kuota dan waktu. Pengguna tidak perlu menunggu lama untuk memuat ulang data.
+
+Tetap bisa menampilkan data saat offline. localStorage menyimpan data di perangkat pengguna, jadi halaman tetap bisa dibuka meski tanpa koneksi.
+
+Pengalaman pengguna lebih lancar. Transisi halaman terasa mulus karena data muncul instan dari cache.
+
+Namun, cache dan localStorage tetap perlu dibersihkan atau diperbarui secara berkala agar tidak menampilkan data lama.
